@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+
+.header {
+    background-color: midnightblue;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: Century Gothic;
+    text-justify: right;
+}
+

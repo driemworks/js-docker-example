@@ -1,0 +1,36 @@
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+    width: 250px;
+}
+
+table.data-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.btn {
+    float: center;
+    margin-top: 30px;
+}
+
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}

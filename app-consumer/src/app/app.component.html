@@ -1,0 +1,20 @@
+<div style="text-align:center">
+
+  <div class="table-container">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Favorite Color</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let message of messages">
+          <td>{{ message.data.name }}</td>
+          <td>{{ message.data.color }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="btn" (click)="onClick()">Load Data</button><br>
+  </div>
+</div>

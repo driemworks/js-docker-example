@@ -1,0 +1,25 @@
+.data-form {
+
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    background-color: gainsboro;
+    outline: 10px;
+    outline-color: aliceblue
+}
+
+.btn {
+    float: right;
+}
+
+.form-header {
+    font-size: 24px;   
+    margin-bottom: 10px;
+}
+
+.form-header-container {
+    text-align: left;
+    margin-top: 5px;
+}
